@@ -175,7 +175,7 @@ main {
 
 /* sopnsors styles */
 
-.sponsors{
+.sponsors {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -194,10 +194,90 @@ main {
     font-weight: 400;
 }
 
-.sponsor-img-container{
+.sponsor-img-container {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
+/* Feature styles */
+
+.features-container {
+    display: flex;
+    gap: 146px;
+    margin-top: 130px;
+    margin-bottom: 168px;
+}
+
+.features-section-title {
+    color: #131313;
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.features-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.features-card {
+    padding: 30px;
+    gap: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 25px;
+}
+
+.feature-card-title {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feature-card-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.feature-img img {
+    max-width: 708px;
+    max-height: 882px;
+}
+
+.ten-years-badgs {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 342px;
+    padding: 43px;
+}
+
+.ten-years-badgs h1 {
+    color: #FFF;
+    font-size: 4.06rem;
+    font-weight: 700;
+}
+
+.ten-years-badgs p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+
 
 
 
@@ -237,14 +317,22 @@ main {
         padding-right: 20px;
     }
 
-    .sponsor-img-container{
+    .sponsor-img-container {
         flex-direction: column;
         padding: 50px;
     }
-    
-    .sponsor-img{
+
+    .sponsor-img {
         width: 165px;
         padding: 40px;
+    }
+
+    .features-container {
+        flex-direction: column;
+        margin-top: 65px;
+        margin-bottom: 84px;
+        gap: 50px;
+        padding-left: 20px;
     }
 
 }
