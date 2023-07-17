@@ -8,34 +8,41 @@
     margin: 0px;
 }
 
-.btn-primary{
-    
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
 }
 
 /* This is header styles */
-header{
+header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
 
-nav{
+nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
+.nav-title {
     color: #131313;
-    font-size: 2.81;
+    font-size: 2.81rem;
     font-weight: 700;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    
+
 }
 
-nav li{
+nav li {
     list-style: none;
     list-style: none;
     margin-left: 40px;
@@ -43,27 +50,60 @@ nav li{
 
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: #424242;
 }
 
 /* Banner style  */
 
-.banner-contant{
+.banner-contant {
     max-width: 800px;
     text-align: center;
     margin: 0px auto;
 }
 
-.banner-title{
+.banner-title {
     color: #131313;
     font-size: 4rem;
     font-weight: 700;
 }
 
-.banner-description{
+.banner-description {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
+    line-height: 26px;
+}
+
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+/* Responsive media Quary */
+
+@media screen and (max-width: 576px) {
+    .header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+}
+
+/* Tablet or mobile devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
 }
